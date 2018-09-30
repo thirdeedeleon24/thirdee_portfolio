@@ -26,19 +26,19 @@ font-family: 'Saira Condensed', sans-serif;
 	/*background-color: #666666;*/
 }
 
-.icon-container {
+/*.icon-container {
 	display: block;
-	height: 70px;
-	width: 70px;
-	line-height: 70px;
+	height: 60px;
+	width: 60px;
+	line-height: 60px;
 	font-size: 0;
 	background-repeat: no-repeat;
 	background-position: center;
-}
+}*/
 
 /*Normal State*/
 
-.html5 {
+/*.html5 {
 	background-image: url("../images/html5-outline-gray.svg");	
 }
 
@@ -72,11 +72,11 @@ font-family: 'Saira Condensed', sans-serif;
 
 .git {
 	background-image: url("../images/git-outline-gray.svg");	
-}
+}*/
 
 /* Hover State */
 
-.html5:hover {
+/*.html5:hover {
 	background-image: url("../images/html5-color.svg");	
 }
 
@@ -110,7 +110,7 @@ font-family: 'Saira Condensed', sans-serif;
 
 .git:hover {
 	background-image: url("../images/git-color.svg");	
-}
+}*/
 
 /* FOOTER AREA CSS */
 
@@ -510,6 +510,14 @@ img.banner-info-stencil {
 
 .fa-download {
 	color: #FFFFFF;
+}
+
+.links {
+	padding: 0 !important;
+}
+
+.banner {
+	padding: 0 !important;
 }
 
 /*
