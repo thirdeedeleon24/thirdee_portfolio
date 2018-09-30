@@ -1,0 +1,520 @@
+
+font-family: 'Arimo', sans-serif;
+font-family: 'Catamaran', sans-serif;
+font-family: 'Saira Condensed', sans-serif;
+*/
+
+
+/* GENERAL CSS */
+
+.row {
+	margin-right: 0;
+	margin-left: 0;
+	padding: 0;
+}
+
+.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+/* PROGRAMMING TECHNOLOGY ICONS */
+
+.progtech-container {
+	background-color: #333333;
+	/*background-color: #666666;*/
+}
+
+.icon-container {
+	display: block;
+	height: 70px;
+	width: 70px;
+	line-height: 70px;
+	font-size: 0;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/*Normal State*/
+
+.html5 {
+	background-image: url("../images/html5-outline-gray.svg");	
+}
+
+.css3 {
+	background-image: url("../images/css3-outline-gray.svg");	
+}
+
+.bootstrap {
+	background-image: url("../images/bootstrap-outline-gray.svg");	
+}
+
+.js {
+	background-image: url("../images/js-outline-gray.svg");	
+}
+
+.jquery {
+	background-image: url("../images/jquery-outline-gray.svg");	
+}
+
+.php {
+	background-image: url("../images/php-outline-gray.svg");	
+}
+
+.mysql {
+	background-image: url("../images/mysql-outline-gray.svg");	
+}
+
+.laravel {
+	background-image: url("../images/laravel-outline-gray.svg");	
+}
+
+.git {
+	background-image: url("../images/git-outline-gray.svg");	
+}
+
+/* Hover State */
+
+.html5:hover {
+	background-image: url("../images/html5-color.svg");	
+}
+
+.css3:hover {
+	background-image: url("../images/css3-color.svg");	
+}
+
+.bootstrap:hover {
+	background-image: url("../images/bootstrap-color.svg");	
+}
+
+.js:hover {
+	background-image: url("../images/js-color.svg");	
+}
+
+.jquery:hover {
+	background-image: url("../images/jquery-color.svg");	
+}
+
+.php:hover {
+	background-image: url("../images/php-color.svg");	
+}
+
+.mysql:hover {
+	background-image: url("../images/mysql-color.svg");	
+}
+
+.laravel:hover {
+	background-image: url("../images/laravel-color.svg");	
+}
+
+.git:hover {
+	background-image: url("../images/git-color.svg");	
+}
+
+/* FOOTER AREA CSS */
+
+footer {
+	background-color: #f16529;
+	/*background-color: #333333;*/
+}
+
+p.footer-text  {
+	font-family: 'Arimo', sans-serif;
+	color: #FFFFFF;
+}
+
+img.nd3-tech-logo {
+	height: 150px;
+}
+
+.main {
+	/*min-height: 600px;*/
+}
+
+
+
+.logo-content {
+	background-color: #333333;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #FF0000;
+	color: #999999;
+}
+
+h5 {
+	color: orange;
+}
+
+h6 {
+	color: white;
+}
+
+header {
+	font-family: 'Arimo', sans-serif;
+	text-transform: uppercase;
+	color: orange;
+}
+
+header {
+	min-height: 150px;
+	/*border: 1px solid white;*/
+}
+
+.sample {
+	font-family: 'Arimo', sans-serif;
+	text-transform: uppercase;
+	color: gray;
+	font-weight: bold;
+}
+
+.sample:hover {
+	color: orange;
+	font-weight: bolder;
+	border-bottom: 2px solid orange;
+}
+
+.sample:active {
+	color: orange;
+	font-weight: bolder;
+	border-bottom: 2px solid orange;
+}
+
+
+/*socmed-icon-container*/
+
+.main-container {
+	/*height: 100%;
+	width: 100%;
+	background-image: url("../images/pexels-photo-257853.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(255,255,255,.5);*/
+}
+
+[class*="container"] {
+	/*border: 1px solid white;*/
+}
+
+
+/*footer {
+	position: absolute;
+	bottom: 0;
+}*/
+
+.banner-container {
+	/*min-height: 350px;	*/
+}
+
+/*.banner-text-content {
+	display: inline-block;
+}*/
+
+
+/*li > a {
+	font-family: 'Arimo', sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.about-links {
+
+}*/
+
+.quotes-container {
+	/*min-height: 80px;*/
+	min-height: 100px;
+}
+
+a.about-links {
+	font-family: 'Arimo', sans-serif;
+
+}
+
+.button {
+	font-family: 'Arimo', sans-serif;
+	text-transform: uppercase;
+}
+
+
+
+.fb-icon {
+	background-image: url("../images/fb-outline-gray.svg");	
+}
+
+.fb-icon:hover {
+	background-image: url("../images/fb-solid-orange.svg");	
+}
+
+.ig-icon {
+	background-image: url("../images/ig-outline-gray.svg");	
+}
+
+.ig-icon:hover {
+	background-image: url("../images/ig-solid-orange.svg");	
+}
+
+.tw-icon {
+	background-image: url("../images/tw-outline-gray.svg");	
+}
+
+.tw-icon:hover {
+	background-image: url("../images/tw-solid-orange.svg");	
+}
+
+.yt-icon {
+	background-image: url("../images/yt-outline-gray.svg");	
+}
+
+.yt-icon:hover {
+	background-image: url("../images/yt-solid-orange.svg");	
+}
+
+.gh-icon {
+	background-image: url("../images/gh-outline-gray.svg");	
+}
+
+.gh-icon:hover {
+	background-image: url("../images/gh-solid-orange.svg");	
+}
+
+
+hr {
+	border-top: 1px solid darkgray;
+}
+
+.navbar-light {
+	color:red;
+}
+
+
+.footer-text-container {
+	/*min-height: 80px;*/
+	/*line-height: 100%;*/
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+/*.main-container {
+	min-height: 600px;*/
+	/*height: 100%;*/
+	/*background-image: url("../images/pexels-photo-257853-orange.jpg");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: cover;
+	background-color: rgba(0,0,0,1);*/
+/*}*/
+
+.main-container {
+	background-image: url("../images/pexels-photo-257853-orange.jpg");
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-position: fixed;
+	background-size: cover;
+	background-color: rgba(0,0,0,1);
+}
+
+/*.main-container-content {
+	min-height: 1200px;
+}
+*/
+
+.main {
+
+}
+
+.main-container {
+	
+}
+
+/*HEADER CSS*/
+
+.logo-container {
+	/*margin: 10px;*/
+}
+
+.logo-content {
+	/*margin-top: 30px;*/
+	/*background-color: #FF9900;*/
+	height: 150px;
+	width: 150px;
+/*	padding: 10px*/;
+}
+
+.logo {
+	display: block;
+	height: 140px;
+	width: 140px;
+	/*background-image: url("../images/nd3-tech-logo-orange.svg");*/
+	background-image: url("../images/nd3-tech-logo-orange.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	/*margin: 0 auto;*/
+
+}
+
+.socmed-icon {
+	display: block;
+	height: 40px;
+	width: 40px;
+	font-size: 0;
+	border: 1px solid black;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.banner-container {
+	width: 90%;
+}
+
+.links {
+	/*min-height: 100px;*/
+	/*border: 1px solid rgba(255,255,255,.5);
+	border-radius: 25px;*/
+	/*width: 95%;*/
+}
+
+.quote-container {
+	min-height: 50px;
+	border: 1px solid black;
+}
+
+.btn-block {
+    display: block;
+    width: 98%;
+}
+
+.btn-secondary {
+    background:none;
+    border:none;
+    box-shadow:none;
+}
+
+a.aboutme-links {
+	font-family: 'Arimo', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	text-decoration: none;
+	font-size: .9em;	
+	/*border-bottom: 2px solid orange;*/
+}
+
+a.aboutme-links:hover {
+	font-weight: bolder;
+	border-left: 3px solid orange;
+}
+
+.card, 
+.card-header, 
+.card-body {
+	background: rgba(255,255,255,.1);
+	background: rgba(0,0,0,.5);
+	border: 1px solid rgba(255,255,255,.5);
+    box-shadow:none;
+}
+
+.card {
+	margin-bottom: 10px;
+}
+
+.card .btn-link {
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+.card > .btn-link:hover {
+	border: 1px solid orange;
+}
+
+img.profile-pic {
+	/*width: 180px;
+	height: 180px;*/
+	/*border-radius: 50%;*/
+}
+
+#collapseTwo p {
+	color: darkgray;
+}
+
+.btn-primary {
+	background-color: #f16529;
+	border-color: #FF8C00;
+}
+
+.about-me-icons {
+	height: 30px;
+	width: 30px;
+	margin-right: 15px;
+}
+
+.banner-container h2 {
+	color: #999999;
+	color: #f16529;;
+	font-family: 'Catamaran', sans-serif;
+	font-family: 'Saira Condensed', sans-serif;
+	font-size: 4rem;
+	font-weight: 900;
+}
+
+.profile-info {
+	color: darkgray;
+}
+
+.profile-info p {
+	color: darkgray;
+}
+
+img.banner-info-stencil {
+	max-width: 90%;
+	height: auto;
+}
+
+.portfolio-wrapper {
+	
+	background-color: #f16529;
+	background-color: #333333;
+
+}
+
+.fa-file,
+.fa-code, 
+.fa-envelope,
+.fa-eye,
+.fa-user-circle
+{
+	color: orange;
+}
+
+.fa-download {
+	color: #FFFFFF;
+}
+
+/*
+#333333
+#666666
+#FFFFFF
+#FF9900
+#FF8400
